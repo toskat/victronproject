@@ -45,5 +45,27 @@ As a baseline, we have chosen a set of components and manufacturers for improved
   - MultiPlus-II 48/5000/70
   - EasySolar-II 48/3000/35
 - Controller: Victron
+
   - Cerbo GX
   - VenusOS on Raspberry Pi hardware
+
+# Detail setup and configuration
+
+## General wiring
+
+This section details the general wiring of our systems
+
+## Seplos configuration
+
+Here is a description of our Seplos configuration
+
+## Victron configuration
+
+In the section the Victron Multiplus configuration is described for the respective scenarios
+
+## Basics Glossary
+
+To make it easier for newcomers to get started, we have - in the confusion of common abbreviations - provided a
+
+- created a glossary as a reference book
+- summarized some basics in the context of PV, accumulators and battery management systems
