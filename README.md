@@ -15,4 +15,35 @@ Our approach is as follows:
 
 to achieve the best possible yield using the least possible financial resources.
 
+# Aim
+
+The aim of this documentation is to
+
+- document our progress and share information
+- record and justify decisions together
+- simplify access to information and decisions for third parties
+
 # Big Picture
+
+We have a wide variety of goals and approaches to how we want to build our facilities:
+
+Setup
+
+- of a fully self-sufficient system in a non-grid-bound environment (immobile).
+- a partially self-sufficient grid-connected system with islanding solution in case of grid unavailability
+- a semi-autonomous grid-connected system without islanding solution
+
+# Componenet selection
+
+As a baseline, we have chosen a set of components and manufacturers for improved collaboration:
+
+- Battery from XXX company (China direct order)
+  - BMS: Seplos 16S-10c
+  - Battery Cells: Eve LF50K
+- Inverter: one version of a Victron
+  - MultiPlus-II 48/3000/35
+  - MultiPlus-II 48/5000/70
+  - EasySolar-II 48/3000/35
+- Controller: Victron
+  - Cerbo GX
+  - VenusOS on Raspberry Pi hardware
