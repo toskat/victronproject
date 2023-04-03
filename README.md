@@ -27,11 +27,9 @@ The aim of this documentation is to
 
 We have a wide variety of goals and approaches to how we want to build our facilities:
 
-Setup
-
-- of a fully self-sufficient system in a non-grid-bound environment (immobile).
-- a partially self-sufficient grid-connected system with islanding solution in case of grid unavailability
-- a semi-autonomous grid-connected system without islanding solution
+- "NON-GRID": Setup of a fully self-sufficient system in a non-grid-bound environment (immobile).
+- "ISLAND" a partially self-sufficient grid-connected system with islanding solution in case of grid unavailability
+- "STORE" a semi-autonomous grid-connected system without islanding solution
 
 # Componenet selection
 
@@ -53,7 +51,19 @@ As a baseline, we have chosen a set of components and manufacturers for improved
 
 ## General wiring
 
-This section details the general wiring of our systems
+This section details
+
+- general wirings
+  - control cable between the systems [here](./wiring/general.md)
+- PIN layout of cables to be individually crimped (Note: can also be purchased).
+  - Connection Battery<->Cerbo, VE-CAN (Cerbo) to CAN (Battery/Seplos) [here](./wiring/can-vecan.md)
+  - Connection Battery<->PC, Seplos Battery-Monitor to Windows as RS485-USB [here](./wiring/rs485-usb.md)
+
+Pls find wirings for (shortcuts are explained in chapter "Big Picture")
+
+- NON-GRID here
+- ISLAND [here](./wiring/island.md)
+- STORE here
 
 ## Seplos configuration
 
@@ -63,9 +73,9 @@ Here is a description of our Seplos configuration
 
 In the section the Victron Multiplus configuration is described for the respective scenarios
 
-## Basics Glossary
+## Basics & Glossary
 
 To make it easier for newcomers to get started, we have - in the confusion of common abbreviations - provided a
 
-- created a glossary as a reference book
+- [Glossary](./basics/glossary.md): created a glossary as a reference book
 - summarized some basics in the context of PV, accumulators and battery management systems
