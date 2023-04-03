@@ -1,4 +1,15 @@
+
+
 # Overview & Vision
+- [Overview \& Vision](#overview--vision)
+- [Aim](#aim)
+- [Big Picture](#big-picture)
+- [Componenet selection](#componenet-selection)
+- [Detail setup and configuration](#detail-setup-and-configuration)
+  - [General wiring](#general-wiring)
+  - [Seplos configuration](#seplos-configuration)
+  - [Victron configuration](#victron-configuration)
+  - [Basics \& Glossary](#basics--glossary)
 
 We are a group of technophile guys and have set ourselves the goal of generating the energy consumed in our home ourselves as far as possible.
 
@@ -43,7 +54,6 @@ As a baseline, we have chosen a set of components and manufacturers for improved
   - MultiPlus-II 48/5000/70
   - EasySolar-II 48/3000/35
 - Controller: Victron
-
   - Cerbo GX
   - VenusOS on Raspberry Pi hardware
 
@@ -54,7 +64,7 @@ As a baseline, we have chosen a set of components and manufacturers for improved
 This section details
 
 - general wirings
-  - control cable between the systems [here](./wiring/general.md)
+  - control cable between the systems [here](./wiring/controlcable.md)
 - PIN layout of cables to be individually crimped (Note: can also be purchased).
   - Connection Battery<->Cerbo, VE-CAN (Cerbo) to CAN (Battery/Seplos) [here](./wiring/can-vecan.md)
   - Connection Battery<->PC, Seplos Battery-Monitor to Windows as RS485-USB [here](./wiring/rs485-usb.md)
