@@ -3,6 +3,7 @@
   - [Connecting Multiplus to Cerbo GX](#connecting-multiplus-to-cerbo-gx)
   - [Connecting Multiplus Array](#connecting-multiplus-array)
   - [Connecting Battery (Seplos) to Cerbo GX](#connecting-battery-seplos-to-cerbo-gx)
+  - [Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC](#connecting-battery-seplos-to-the-battery-monitor-seplos-on-your-pc)
   - [Connecting Battery Array](#connecting-battery-array)
 
 
@@ -40,7 +41,7 @@ Pls find further details on the [victron homepage](https://www.victronenergy.com
 
 ## Connecting Multiplus to Cerbo GX
 
-To connect a Multiplus to a Cerbo GX pls use a standard RJ45 cable using the **VE-BUS plugs**
+To connect a Multiplus to a Cerbo GX pls use a **standard RJ45 cable** using the **VE-BUS plugs**
 
 Connection type: 
 1. Cerbo GX: RJ45
@@ -50,6 +51,22 @@ Connection type:
 
 To connect a Multiplus Array pls use a standard RJ45 cable using the **VE-BUS plugs**
 
+Connection type: 
+1. Multiplus outgoing: RJ45
+2. Multiplus incoming: RJ45
+
 ## Connecting Battery (Seplos) to Cerbo GX
 
+## Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC
+
 ## Connecting Battery Array
+
+To connect a Battery Array pls use a standard RJ45 cable using the **RJ45 plugs**
+
+Connection type: 
+1. Battery outgoing: RJ45
+2. Battery incoming: RJ45
+
+Note: choose any of the available RJ45 connections.
+
+**Important:** It is not possible to connect a Battery Monitor **AND** a CAN bus (to a Cerbo device) in parallel, if you want to use the Battery Monitor pls disconnect the CAN bus before, otherwise it will not work...
