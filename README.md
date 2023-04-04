@@ -81,7 +81,9 @@ Here is a description of our Seplos configuration
 
 ## Victron configuration
 
-In the section the Victron Multiplus configuration is described for the respective scenarios
+In this section the Victron Multiplus configuration is described for the respective scenarios.
+
+Pls find details [here](./configuration/victron_mp_array.md).
 
 ## Basics & Glossary
 
