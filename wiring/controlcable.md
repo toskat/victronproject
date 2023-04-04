@@ -69,7 +69,7 @@ Connection type:
 
 To build this cable on your own pls proceed like described below: 
 
-![cable overview](./rj45-pinning.png =200x100)
+![cable overview](./rj45-pinning.png)
 
 |Function|Victron (Plug: CE.Can)|Battery (Plug: CAN)|
 |---|---|---|
