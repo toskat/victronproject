@@ -58,28 +58,25 @@ Connection type:
 
 ## Connecting Multiplus to your PC (Configuration)
 
-To connect a Multiplus (Array) to your PC a CAN bus connection is used. This is a **Non-Standard RJ45 cable**. This can be 
+
+## Connecting Battery (Seplos) to Cerbo GX
+
+To connect your Battery (Seplos BMS) to your batterya CAN bus connection is used. This is a **Non-Standard RJ45 cable**. This can be 
 
 * purchased directly from Victron [here](https://greenakku.de/Zubehoer/Systemueberwachung/Interfaces/VE-Can-zu-CAN-bus-BMS-Typ-B-Kabel-5m::3676.html)
 * crimped on your own.
-
-Connection type: 
-1. Multiplus outgoing: RJ45
-2. Multiplus incoming: RJ45
 
 To build this cable on your own pls proceed like described below: 
 
 <img src="./rj45-pinning.png" width="200">
 
-|Function|Victron (Plug: CE.Can)|Battery (Plug: CAN)|
+|Function|Victron (Plug: VE.Can)|Battery (Plug: CAN)|
 |---|---|---|
 |GND|Pin 5|Pin 6|
 |CAN-L|Pin 8|Pin 5|
 |CAN-H|Pin 7|Pin 4|
 
 Beware: Do not accidentally mix up the sides, this will not work!
-
-## Connecting Battery (Seplos) to Cerbo GX
 
 ## Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC (Configuration)
 
