@@ -2,8 +2,9 @@
   - [Connecting EM24 to Cerbo GX](#connecting-em24-to-cerbo-gx)
   - [Connecting Multiplus to Cerbo GX](#connecting-multiplus-to-cerbo-gx)
   - [Connecting Multiplus Array](#connecting-multiplus-array)
+  - [Connecting Multiplus to your PC (Configuration)](#connecting-multiplus-to-your-pc-configuration)
   - [Connecting Battery (Seplos) to Cerbo GX](#connecting-battery-seplos-to-cerbo-gx)
-  - [Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC](#connecting-battery-seplos-to-the-battery-monitor-seplos-on-your-pc)
+  - [Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC (Configuration)](#connecting-battery-seplos-to-the-battery-monitor-seplos-on-your-pc-configuration)
   - [Connecting Battery Array](#connecting-battery-array)
 
 
@@ -55,9 +56,32 @@ Connection type:
 1. Multiplus outgoing: RJ45
 2. Multiplus incoming: RJ45
 
+## Connecting Multiplus to your PC (Configuration)
+
+To connect a Multiplus (Array) to your PC a CAN bus connection is used. This is a **Non-Standard RJ45 cable**. This can be 
+
+* purchased directly from Victron [here](https://greenakku.de/Zubehoer/Systemueberwachung/Interfaces/VE-Can-zu-CAN-bus-BMS-Typ-B-Kabel-5m::3676.html)
+* crimped on your own.
+
+Connection type: 
+1. Multiplus outgoing: RJ45
+2. Multiplus incoming: RJ45
+
+To build this cable on your own pls proceed like described below: 
+
+![cable overview](./rj45-pinning.png =200x100)
+
+|Function|Victron (Plug: CE.Can)|Battery (Plug: CAN)|
+|---|---|---|
+|GND|Pin 5|Pin 6|
+|CAN-L|Pin 8|Pin 5|
+|CAN-H|Pin 7|Pin 4|
+
+Beware: Do not accidentally mix up the sides, this will not work!
+
 ## Connecting Battery (Seplos) to Cerbo GX
 
-## Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC
+## Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC (Configuration)
 
 ## Connecting Battery Array
 
