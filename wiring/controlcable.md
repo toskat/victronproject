@@ -38,6 +38,8 @@ The table below shows the colors of the wires and their connection to the termin
 
 The red, green and brown wire coming out of the RS485 to USB cable are not used. Cut them off or bend them back and isolate them.
 
+Note: The yellow and the red cable look pretty similar, make sure you've picked the right one! 
+
 ![image](https://www.victronenergy.com/media/pg/Energy_Meter_EM24_RS485/en/image/1640f1c986c3fa.svg)
 
 Pls find further details on the [victron homepage](https://www.victronenergy.com/media/pg/Energy_Meter_EM24_RS485/en/installation-and-configuration.html#UUID-842df419-d17e-0830-4845-5c17d719ff1f)
