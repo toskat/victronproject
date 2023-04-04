@@ -1,9 +1,9 @@
 - [Controlling cable](#controlling-cable)
-  - [Connecting EM24 to Cerbo GX](#connecting-em24-to-cerbo-gx)
-  - [Connecting Multiplus to Cerbo GX](#connecting-multiplus-to-cerbo-gx)
+  - [Connecting EM24 to a GX unit](#connecting-em24-to-a-gx-unit)
+  - [Connecting Multiplus to Cerbo GX unit](#connecting-multiplus-to-cerbo-gx-unit)
   - [Connecting Multiplus Array](#connecting-multiplus-array)
   - [Connecting Multiplus to your PC (Configuration)](#connecting-multiplus-to-your-pc-configuration)
-  - [Connecting Battery (Seplos) to Cerbo GX](#connecting-battery-seplos-to-cerbo-gx)
+  - [Connecting Battery (Seplos) to a GX unit](#connecting-battery-seplos-to-a-gx-unit)
   - [Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC (Configuration)](#connecting-battery-seplos-to-the-battery-monitor-seplos-on-your-pc-configuration)
   - [Connecting Battery Array](#connecting-battery-array)
 
@@ -16,12 +16,14 @@ Pls find below an overview
 
 ![cable overview](./controlcable_overview.png)
 
-## Connecting EM24 to Cerbo GX
+## Connecting EM24 to a GX unit
 
-To connect an EM24 to a Cerbo GX you need a RS485 cable like sold [here](https://www.amazon.de/Victron-Energy-Interface-ASS030572018-Adapter-Kabel/dp/B09NRBLW96/). 
+To connect an EM24 to a GX unit you need a RS485 cable like sold [here](https://www.amazon.de/Victron-Energy-Interface-ASS030572018-Adapter-Kabel/dp/B09NRBLW96/). 
+
+A GX unit may be a Cerbo GX or a Multiplus GX (combination of Multiplus including a GX unit)
 
 Connection type: 
-1. Cerbo GX: USB 
+1. GX unit: USB 
 2. EM24: single cables
 
 The RS485 to USB interface cable between the GX device and the Energy Meter can be extended up to 100 meters; make sure that the extensions of the Data+ (orange) and Data- (yellow) wires form a twisted pair.
@@ -40,7 +42,7 @@ The red, green and brown wire coming out of the RS485 to USB cable are not used.
 
 Pls find further details on the [victron homepage](https://www.victronenergy.com/media/pg/Energy_Meter_EM24_RS485/en/installation-and-configuration.html#UUID-842df419-d17e-0830-4845-5c17d719ff1f)
 
-## Connecting Multiplus to Cerbo GX
+## Connecting Multiplus to Cerbo GX unit
 
 To connect a Multiplus to a Cerbo GX pls use a **standard RJ45 cable** using the **VE-BUS plugs**
 
@@ -59,9 +61,12 @@ Connection type:
 ## Connecting Multiplus to your PC (Configuration)
 
 
-## Connecting Battery (Seplos) to Cerbo GX
+## Connecting Battery (Seplos) to a GX unit 
 
-To connect your Battery (Seplos BMS) to your batterya CAN bus connection is used. This is a **Non-Standard RJ45 cable**. This can be 
+To connect your Battery (Seplos BMS) to your GX unit a CAN bus connection is used. 
+A GX unit may be a Cerbo GX or a Multiplus GX (combination of Multiplus including a GX unit)
+
+This cable is a **Non-Standard RJ45 cable**. This can be 
 
 * purchased directly from Victron [here](https://greenakku.de/Zubehoer/Systemueberwachung/Interfaces/VE-Can-zu-CAN-bus-BMS-Typ-B-Kabel-5m::3676.html)
 * crimped on your own.
@@ -76,7 +81,9 @@ To build this cable on your own pls proceed like described below:
 |CAN-L|Pin 8|Pin 5|
 |CAN-H|Pin 7|Pin 4|
 
-Beware: Do not accidentally mix up the sides, this will not work!
+Important Notes:
+* To be able to use the connection a terminator has to be set on the Cerbo GX Side
+* Beware: Do not accidentally mix up the sides, this will not work!
 
 ## Connecting Battery (Seplos) to the Battery Monitor (Seplos) on your PC (Configuration)
 
