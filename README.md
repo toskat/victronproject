@@ -9,9 +9,11 @@
   - [General wiring](#general-wiring)
   - [Seplos BMS setup](#seplos-bms-setup)
     - [Seplos firmware](#seplos-firmware)
-  - [Seplos Best Practises](#seplos-best-practises)
+    - [Seplos Best Practises](#seplos-best-practises)
     - [Seplos FAQ](#seplos-faq)
-  - [Victron configuration](#victron-configuration)
+  - [Victron setup](#victron-setup)
+    - [General setup](#general-setup)
+    - [Victron Multiplus II Array setup](#victron-multiplus-ii-array-setup)
   - [Basics \& Glossary](#basics--glossary)
 
 # Overview & Vision
@@ -90,13 +92,20 @@ There are different Seplos firmwares around having advantages and disadvantages.
 
 Pls find a comparison including known bugs [here](./configuration/seplos_firmware.md)
 
-## Seplos Best Practises
+### Seplos Best Practises
 
 ### Seplos FAQ
 
-## Victron configuration
+## Victron setup
 
 In this section the Victron Multiplus configuration is described for the respective scenarios.
+
+### General setup
+
+Pls find details [here](./configuration/victron_mp_general.md).
+
+
+### Victron Multiplus II Array setup
 
 Pls find details [here](./configuration/victron_mp_array.md).
 
