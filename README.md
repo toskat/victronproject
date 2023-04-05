@@ -1,15 +1,20 @@
 
 
-# Overview & Vision
+
 - [Overview \& Vision](#overview--vision)
-- [Aim](#aim)
+  - [Aim](#aim)
 - [Big Picture](#big-picture)
 - [Componenet selection](#componenet-selection)
 - [Detail setup and configuration](#detail-setup-and-configuration)
   - [General wiring](#general-wiring)
-  - [Seplos configuration](#seplos-configuration)
+  - [Seplos BMS setup](#seplos-bms-setup)
+    - [Seplos firmware](#seplos-firmware)
+  - [Seplos Best Practises](#seplos-best-practises)
+    - [Seplos FAQ](#seplos-faq)
   - [Victron configuration](#victron-configuration)
   - [Basics \& Glossary](#basics--glossary)
+
+# Overview & Vision
 
 We are a group of technophile guys and have set ourselves the goal of generating the energy consumed in our home ourselves as far as possible.
 
@@ -26,7 +31,7 @@ Our approach is as follows:
 
 to achieve the best possible yield using the least possible financial resources.
 
-# Aim
+## Aim
 
 The aim of this documentation is to
 
@@ -75,9 +80,19 @@ Pls find wirings for (shortcuts are explained in chapter "Big Picture")
 - ISLAND [here](./wiring/island.md)
 - STORE here
 
-## Seplos configuration
+## Seplos BMS setup
 
 Here is a description of our Seplos configuration
+
+### Seplos firmware
+
+There are different Seplos firmwares around having advantages and disadvantages. 
+
+Pls find a comparison including known bugs [here](./configuration/seplos_firmware.md)
+
+## Seplos Best Practises
+
+### Seplos FAQ
 
 ## Victron configuration
 
