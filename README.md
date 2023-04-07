@@ -114,4 +114,4 @@ Pls find details [here](./configuration/victron_mp_array.md).
 To make it easier for newcomers to get started, we have - in the confusion of common abbreviations - provided a
 
 - [Glossary](./basics/glossary.md): created a glossary as a reference book
-- summarized some basics in the context of PV, accumulators and battery management systems
+- [Theroretical intro and Getting Startded](./basics/intro.md): some basics to better understand the operation of a BMS for improved threshold configuration 
