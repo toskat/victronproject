@@ -6,4 +6,5 @@ In the following there are some common abbreviations with short description
 | ----- | --------------------------------------- | ---------------------------------------------------------------------------------- |
 | BMS   | Battery Management System               | managing component for balacning the battery cells                                 |
 | DVCC  | Distributed Voltage and Current Control | controlling component to control the current and voltage flows towards the battery |
+| LFP   | LiFePo   | Lithium Iron Phosphate (battery type)
 | SOC   | State of Charge                         | Battery level (in percent)                                                         |
