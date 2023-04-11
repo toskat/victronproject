@@ -96,6 +96,8 @@ Pls find a comparison including known bugs [here](./configuration/seplos_firmwar
 
 ### Seplos FAQ
 
+Pls find FAQ [here](./wiring/seplos_faq.md)
+
 ## Victron setup
 
 In this section the Victron Multiplus configuration is described for the respective scenarios.

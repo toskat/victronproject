@@ -1,13 +1,18 @@
 - [Seplos Firmware](#seplos-firmware)
-  - [Comparison of firmware versions](#comparison-of-firmware-versions)
-  - [Known bugs](#known-bugs)
-  - [Best Practises](#best-practises)
+- [Comparison of firmware versions](#comparison-of-firmware-versions)
+- [Known bugs](#known-bugs)
+- [Best Practises](#best-practises)
 
 
 # Seplos Firmware
 
-## Comparison of firmware versions
+Firmware version available for download
+* [Version 2.7](./CAN1101%5BFW27-DFSET_PN01_210520%5D.zip)
+* [Version 2.8](./CAN1101%5BFW28-DFSET_VC03_210916%5D.zip)
+* [Version 2.9](./CAN1101%5BFW29_HW14_PN01_220623%5D.zip)
 
-## Known bugs
+# Comparison of firmware versions
 
-## Best Practises
+# Known bugs
+
+# Best Practises
