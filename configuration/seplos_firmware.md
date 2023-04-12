@@ -1,7 +1,5 @@
 - [Seplos Firmware](#seplos-firmware)
 - [Comparison of firmware versions](#comparison-of-firmware-versions)
-- [Known bugs](#known-bugs)
-- [Best Practises](#best-practises)
 
 
 # Seplos Firmware
@@ -13,6 +11,3 @@ Firmware version available for download
 
 # Comparison of firmware versions
 
-# Known bugs
-
-# Best Practises

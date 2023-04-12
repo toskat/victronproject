@@ -73,8 +73,8 @@ This section details
 - general wirings
   - control cable between the systems [here](./wiring/controlcable.md)
 - PIN layout of cables to be individually crimped (Note: can also be purchased).
-  - Connection Battery<->Cerbo, VE-CAN (Cerbo) to CAN (Battery/Seplos) [here](./wiring/can-vecan.md)
-  - Connection Battery<->PC, Seplos Battery-Monitor to Windows as RS485-USB [here](./wiring/rs485-usb.md)
+  - Connection Battery<->Cerbo, VE-CAN (Cerbo) to CAN (Battery/Seplos) [here](./wiring/controlcable.md#connecting-battery-seplos-to-a-gx-unit)
+  - Connection Battery<->PC, Seplos Battery-Monitor to Windows as RS485-USB [here](./wiring/controlcable.md#connecting-battery-seplos-to-the-battery-monitor-seplos-on-your-pc-configuration)
 
 Pls find wirings for (shortcuts are explained in chapter "Big Picture")
 
