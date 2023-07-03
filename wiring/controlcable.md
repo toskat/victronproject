@@ -76,7 +76,9 @@ Wire it like this:
 |3/6|GROUND|
 |4/5|NC (not connected)|
 
+Note: RJ45 pins are numbered like
 
+<img src="./rj45-pinning.png" width="200">
 
 ## Connecting Battery (Seplos) to a GX unit 
 
