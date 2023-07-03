@@ -63,6 +63,21 @@ Connection type:
 ## Connecting Multiplus to your PC (Configuration)
 
 
+Connecting your PC to the BMS directly gives you insights into several additional BMS and cell parameters. Here you need a custom cable to connect RS485 to your PCs USB port.
+
+On the USB side you may use [this adapter](https://amzn.eu/d/hG4b37t).
+
+Wire it like this: 
+
+|PINS|Definition|
+|---|---|
+|1/8|RS485-B|
+|2/7|RS485-A|
+|3/6|GROUND|
+|4/5|NC (not connected)|
+
+
+
 ## Connecting Battery (Seplos) to a GX unit 
 
 To connect your Battery (Seplos BMS) to your GX unit a CAN bus connection is used. 
